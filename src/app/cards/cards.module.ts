@@ -19,11 +19,12 @@ import { IcerikComponent } from './management-components/icerik/icerik.component
 import { IstatistikComponent } from './management-components/istatistik/istatistik.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { UyelerComponent } from './management-components/uyeler/uyeler.component';
+import { OutPageComponent } from './management-components/out-page/out-page.component';
 @NgModule({
   declarations: [CardsComponent,
      CardItemComponent,
      CardModalComponent, 
-     CardSearchComponent, ManagementComponentsComponent, ProfilComponent, TabloComponent, AyarlarComponent, IcerikComponent, IstatistikComponent, UyelerComponent
+     CardSearchComponent, ManagementComponentsComponent, ProfilComponent, TabloComponent, AyarlarComponent, IcerikComponent, IstatistikComponent, UyelerComponent, OutPageComponent
      
     ],
   imports: [
