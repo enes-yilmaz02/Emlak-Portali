@@ -25,6 +25,9 @@ import { CardsComponent } from './components/home/cards/cards.component';
 import { FakeusersComponent } from './components/home/fakeusers/fakeusers.component';
 import { UsersComponent } from './components/home/users/users.component';
 import { PropertyCardsComponent } from './components/property/property-cards/property-cards.component';
+import { MainUpdateComponent } from './components/profil/main-update/main-update.component';
+import { AgentyUsersComponent } from './components/agenty/agenty-users/agenty-users.component';
+import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +48,10 @@ import { PropertyCardsComponent } from './components/property/property-cards/pro
     CardsComponent,
     FakeusersComponent,
     UsersComponent,
-    PropertyCardsComponent
+    PropertyCardsComponent,
+    MainUpdateComponent,
+    AgentyUsersComponent,
+    ContactFormComponent
 
   ],
   imports: [
