@@ -28,6 +28,7 @@ import { PropertyCardsComponent } from './components/property/property-cards/pro
 import { MainUpdateComponent } from './components/profil/main-update/main-update.component';
 import { AgentyUsersComponent } from './components/agenty/agenty-users/agenty-users.component';
 import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,6 +63,7 @@ import { ContactFormComponent } from './components/contact/contact-form/contact-
     MatToolbarModule,
     MatSnackBarModule,
     MatTabsModule
+   
   ],
   providers: [
     {

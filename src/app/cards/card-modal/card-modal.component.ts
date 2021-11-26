@@ -40,9 +40,9 @@ export class CardModalComponent implements OnInit {
     this.showSpinner = true;
     this.cardService.addCard(this.cardForm.value)
       .subscribe((res: any) => {
-        this.getSuccess(res || 'Kartvizit başarıyla eklendi.');
+        this.getSuccess(res || 'Kart başarıyla eklendi.');
       }, (err: any) => {
-        this.getError(err.message || 'Kartvizit eklenirken bir sorun oluştu');
+        this.getError(err.message || 'Kart eklenirken bir sorun oluştu');
       });
   }
 
@@ -50,9 +50,9 @@ export class CardModalComponent implements OnInit {
     this.showSpinner = true;
     this.cardService.updateCard(this.cardForm.value, this.data.id)
       .subscribe((res: any) => {
-        this.getSuccess(res || 'Kartvizit başarıyla güncellendi.');
+        this.getSuccess(res || 'Kart başarıyla güncellendi.');
       }, (err: any) => {
-        this.getError(err.message || 'Kartvizit güncellenirken bir sorun oluştu');
+        this.getError(err.message || 'Kart güncellenirken bir sorun oluştu');
       });
   }
 
