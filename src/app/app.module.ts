@@ -68,7 +68,7 @@ import { ContactFormComponent } from './components/contact/contact-form/contact-
   providers: [
     {
       provide: 'apiUrl',
-      useValue: 'https://demo.limantech.com/cards/public/api'
+      useValue: 'https://demo.limantech.com/cards/p ublic/api'
     }
   ],
   bootstrap: [AppComponent]

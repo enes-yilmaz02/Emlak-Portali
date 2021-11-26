@@ -1,7 +1,7 @@
 /* card details start  */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
 section{
-    padding: 100px 0;
+    padding: 10px 0;
 }
 .details-card {
 	background: #ecf0f1;
@@ -102,3 +102,13 @@ a.btn-card {
     color: #fff;
 }
 /* End card section */
+.resim_yazi{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    font-size: 80px;
+    color: #000;
+}
+.resim_yazi i{
+  font-size: 80px;
+}

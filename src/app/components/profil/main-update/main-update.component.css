@@ -42,3 +42,13 @@ img {
     border: 2px solid #000;
 
 }
+.resim_yazi{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    font-size: 80px;
+    color: #000;
+}
+.resim_yazi i{
+    font-size: 80px;
+  }
